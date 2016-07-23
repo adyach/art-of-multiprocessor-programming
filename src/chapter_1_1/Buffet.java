@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class Buffet {
 
     private static final int PHILOSOPHERS_NUMBER = 5;
-    private static final long WORKING_TIME = TimeUnit.SECONDS.toMillis(3);
+    private static final long WORKING_TIME = TimeUnit.SECONDS.toMillis(4);
 
     private final List<Philosopher> philosophers = new ArrayList(PHILOSOPHERS_NUMBER);
 
